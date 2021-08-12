@@ -3,9 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PoModule } from '@po-ui/ng-components';
 import { RouterModule } from '@angular/router';
+import { PoModule } from '@po-ui/ng-components';
 import { PoTemplatesModule } from '@po-ui/ng-templates';
+
 
 @NgModule({
   declarations: [
@@ -17,7 +18,6 @@ import { PoTemplatesModule } from '@po-ui/ng-templates';
     PoModule,
     PoTemplatesModule,
     RouterModule.forRoot([]),
-    PoTemplatesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
